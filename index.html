@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suhas Kolekar | Data Analyst Portfolio</title>
+    <style>
+        :root {
+            --bg-color: #0d1117;
+            --card-bg: #161b22;
+            --border-color: #30363d;
+            --text-main: #c9d1d9;
+            --text-heading: #ffffff;
+            --accent-blue: #58a6ff;
+            --accent-green: #2ea043;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+        body { background-color: var(--bg-color); color: var(--text-main); line-height: 1.6; padding: 20px; max-width: 1000px; margin: 0 auto; }
+
+        header { padding: 40px 0 20px 0; border-bottom: 1px solid var(--border-color); }
+        h1 { color: var(--text-heading); font-size: 2.5rem; }
+        .subtitle { color: var(--accent-blue); font-size: 1.2rem; margin-top: 5px; font-weight: 600; }
+        .contact-bar { margin-top: 15px; display: flex; gap: 15px; flex-wrap: wrap; font-size: 0.95rem; }
+        .contact-bar a { color: var(--text-main); text-decoration: none; border-bottom: 1px dotted var(--text-main); }
+        .contact-bar a:hover { color: var(--accent-blue); }
+
+        section { margin: 35px 0; }
+        h2 { color: var(--text-heading); font-size: 1.5rem; margin-bottom: 15px; border-left: 4px solid var(--accent-blue); padding-left: 10px; }
+
+        .skills-grid { display: flex; gap: 10px; flex-wrap: wrap; }
+        .skill-badge { background: var(--card-bg); border: 1px solid var(--border-color); padding: 6px 12px; border-radius: 20px; font-size: 0.88rem; color: var(--accent-blue); }
+
+        .project-card, .exp-card { background: var(--card-bg); border: 1px solid var(--border-color); border-radius: 8px; padding: 20px; margin-bottom: 20px; }
+        .card-header { display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; }
+        .card-title { color: var(--text-heading); font-size: 1.2rem; font-weight: 600; }
+        .card-date { color: #8b949e; font-size: 0.85rem; }
+        .card-company { color: var(--accent-blue); font-size: 0.95rem; margin-bottom: 10px; }
+
+        ul { margin-left: 20px; margin-top: 10px; }
+        li { margin-bottom: 8px; }
+
+        .btn { display: inline-block; background: var(--accent-green); color: white; padding: 8px 16px; border-radius: 6px; text-decoration: none; font-size: 0.9rem; font-weight: 600; margin-top: 10px; }
+        .btn:hover { opacity: 0.9; }
+
+        footer { text-align: center; padding: 30px 0; border-top: 1px solid var(--border-color); color: #8b949e; font-size: 0.85rem; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Suhas Kolekar</h1>
+        <div class="subtitle">Data Analyst | SQL • Python • Power BI • Advanced Excel</div>
+        <div class="contact-bar">
+            <span>📍 Pune / Mumbai, India</span>
+            <span>📧 <a href="mailto:suhaskolekar1005@gmail.com">suhaskolekar1005@gmail.com</a></span>
+            <span>🔗 <a href="https://linkedin.com/in/suhas-kolekar" target="_blank">LinkedIn Profile</a></span>
+            <span>📱 +91 7721041099</span>
+        </div>
+    </header>
+
+    <section id="about">
+        <h2>Professional Summary</h2>
+        <p>Data Analyst with 1.5+ years of experience transforming raw operational and transactional data into actionable business intelligence using SQL, Python, Power BI, and Advanced Excel. C-DAC Post Graduate in AI with proven domain expertise across <strong>Fleet Logistics Telemetry</strong>, <strong>Banking Risk & Fraud Analytics</strong>, and <strong>AI Data Pipelines</strong>.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Technical Core Stack</h2>
+        <div class="skills-grid">
+            <span class="skill-badge">SQL (PostgreSQL, MySQL)</span>
+            <span class="skill-badge">Python (Pandas, NumPy, Matplotlib)</span>
+            <span class="skill-badge">Power BI & Tableau</span>
+            <span class="skill-badge">Advanced Excel (VBA, Power Query)</span>
+            <span class="skill-badge">ETL & Pipeline Automation</span>
+            <span class="skill-badge">Exploratory Data Analysis (EDA)</span>
+            <span class="skill-badge">Fraud & Risk Analytics</span>
+            <span class="skill-badge">Cohort Analysis & Retention</span>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Featured Analytics Projects</h2>
+
+        <div class="project-card">
+            <div class="card-header">
+                <span class="card-title">Fleet Telemetry Analytics & Route Efficiency Engine</span>
+                <span class="card-date">Arya Omnitalk Domain</span>
+            </div>
+            <ul>
+                <li>Cleaned and processed 20,000+ daily telemetry records from 200+ active vehicles using Python (Pandas/NumPy).</li>
+                <li>Executed advanced SQL queries (CTEs, Window Functions) to identify dispatch bottlenecks and route delays.</li>
+                <li>Built an interactive Power BI dashboard tracking 20+ operational KPIs, improving tracking accuracy by 15%.</li>
+            </ul>
+            <a href="https://github.com/suhaskolekar" target="_blank" class="btn">View Code on GitHub</a>
+        </div>
+
+        <div class="project-card">
+            <div class="card-header">
+                <span class="card-title">Banking Transaction Anomaly & Fraud Detection Engine</span>
+                <span class="card-date">IDBI Intech Domain</span>
+            </div>
+            <ul>
+                <li>Analyzed 50,000+ transaction records using multi-table SQL joins and window functions to isolate fraudulent patterns.</li>
+                <li>Investigated 500+ weekly transaction alerts across digital banking channels, cutting review times by 20%.</li>
+                <li>Built automated SQL reporting templates to track emerging fraud vectors for senior risk stakeholders.</li>
+            </ul>
+            <a href="https://github.com/suhaskolekar" target="_blank" class="btn">View Code on GitHub</a>
+        </div>
+    </section>
+
+    <section id="experience">
+        <h2>Work Experience</h2>
+
+        <div class="exp-card">
+            <div class="card-header">
+                <span class="card-title">Data & Operations Analyst</span>
+                <span class="card-date">Feb 2026 – Present</span>
+            </div>
+            <div class="card-company">Arya Omnitalk • Full-time</div>
+            <ul>
+                <li>Automated weekly reporting workflows using Python and Advanced Excel, saving 8+ hours/week.</li>
+                <li>Processed and validated telemetry data across 200+ vehicles to ensure high data fidelity for operational tracking.</li>
+            </ul>
+        </div>
+
+        <div class="exp-card">
+            <div class="card-header">
+                <span class="card-title">Fraud Analytics Associate – CSA</span>
+                <span class="card-date">Apr 2025 – Oct 2025</span>
+            </div>
+            <div class="card-company">IDBI Intech LTD • Full-time</div>
+            <ul>
+                <li>Executed SQL pattern recognition across 50,000+ banking transactions to isolate anomaly vectors.</li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 Suhas Kolekar • Built with HTML/CSS • Hosted on GitHub Pages</p>
+    </footer>
+
+</body>
+</html>
